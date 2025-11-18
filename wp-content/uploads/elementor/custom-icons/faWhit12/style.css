@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "faWhit12";
+  src: url("fonts/faWhit12.eot?iqkak1");
+  src: url("fonts/faWhit12.eot?iqkak1#iefix") format("embedded-opentype"),
+    url("fonts/faWhit12.ttf?iqkak1") format("truetype"),
+    url("fonts/faWhit12.woff?iqkak1") format("woff"),
+    url("fonts/faWhit12.svg?iqkak1#faWhit12") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icfaWhit1"],
+[class*=" icfaWhit1"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "faWhit12" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icfaWhit1faWhit1:before {
+  content: "\e900";
+  color: #fff;
+}
